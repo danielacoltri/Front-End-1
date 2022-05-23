@@ -6,13 +6,15 @@
   /*background-image: url("../img/banner.jpg");*/
   /*background-repeat: no-repeat;
   background-attachment: fixed;*/
-  background-color: rgb(243, 193, 208);
+  background-color: rgb(255, 255, 255);
 }
 
 .review-score {
-  background-color: #d9ff00;
+  background-color: #ff00aa;
   padding: 0.8rem;
   border-radius: 10px;
+  color: aliceblue;
+  font-weight: 600;
 }
 
 h1 {
