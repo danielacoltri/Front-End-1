@@ -1,0 +1,29 @@
+* {
+  font-family: "Trebuchet MS";
+}
+
+h1 {
+  color: blue;
+  background-color: grey;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+h2 {
+  color: rgb(79, 40, 116);
+  font-size: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/*usa-se . mais nome da classe*/
+.subtitle {
+}
+
+/*usa-se # para id, que usa o nome do id, apenas o nome*/
+#bolo-de-cenoura {
+  color: rgb(74, 77, 76);
+  font-size: 16px;
+}
