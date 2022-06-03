@@ -52,6 +52,7 @@ main {
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 10px;
+  position: relative;
 }
 
 .card {
@@ -156,6 +157,16 @@ main {
   margin: 20px;
 }
 
+.icon__more {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.icon__img {
+  width: 60px;
+}
+
 footer {
   background-color: var(--primary-color);
   height: 51px;
@@ -168,6 +179,9 @@ footer {
   .title {
     height: 80px;
     font-size: 1.6rem;
+  }
+  .icon__img {
+    position: fixed;
   }
 }
 
