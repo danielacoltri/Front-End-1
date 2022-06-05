@@ -59,10 +59,14 @@ body {
   gap: 5px;
 }
 
+.card {
+  flex-grow: 1;
+}
 .card__img-background {
-  width: 490px;
-  height: 350px;
+  min-height: 350px;
   background-image: url(/Aula_11/img/delivery.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 5px;
 }
 
@@ -80,8 +84,8 @@ body {
 
 .card__menu {
   background-color: white;
-  width: 490px;
-  height: 350px;
+  flex-grow: 1;
+  min-height: 350px;
   border-radius: 5px;
   box-sizing: border-box;
   padding: 26px;
