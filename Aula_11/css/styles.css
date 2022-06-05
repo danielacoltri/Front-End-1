@@ -16,12 +16,20 @@ body {
   flex-direction: column;
 }
 .menu {
+  padding: 10px 20px;
   background-color: #222222;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   justify-content: space-between;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .menu__link a {
@@ -43,12 +51,12 @@ body {
 }
 
 .container__cards {
-  margin: 16px;
+  margin: 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /*justify-content: space-between;*/
-  gap: 10px;
+  justify-content: space-between;
+  gap: 5px;
 }
 
 .card__img-background {
@@ -63,6 +71,7 @@ body {
   font-size: 24px;
   text-align: center;
   line-height: 36px;
+  margin-bottom: 46px;
 }
 
 .card__text span {
@@ -75,13 +84,52 @@ body {
   height: 350px;
   border-radius: 5px;
   box-sizing: border-box;
+  padding: 26px;
 }
 
 .card__list {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .card__title-list {
+  margin-bottom: 20px;
   display: flex;
+  flex-direction: column;
+}
 
+.card__title-list h2 {
+  margin-bottom: 20px;
+}
+
+.card__title-list li {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.footer__menu {
+  background-color: #222222;
+  padding: 19px 20px 8px 20px;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__menu li {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 12px;
 }
