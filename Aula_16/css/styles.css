@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  --card-background: #f3f3f3;
+  --primary-color: #00669f;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.bar-descount {
+  height: 38px;
+  width: 100%;
+  background-color: #1cd1b0;
+  padding: 10px;
+  font-weight: bold;
+}
+
+span {
+  padding: 30px;
+}
+
+.title {
+  height: 75px;
+  background-color: var(--primary-color);
+  padding: 5px;
+  font-size: 1rem;
+  font-style: normal;
+  color: white;
+  box-shadow: 0px 12px 11px -8px rgba(0, 0, 0, 0.58);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+h1 {
+  padding: 30px;
+  font-style: normal;
+}
+
+h2 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 72px;
+  font-weight: 900;
+  color: #333333;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 110px;
+}
+/*
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;*/
+}*/
+
+input {
+  width: 620px;
+  height: 60px;
+}
+
+.copyRigth {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer {
+  background-color: var(--primary-color);
+  height: 51px;
+  width: 100%;
+  color: #fff9f9;
+  padding: 10px;
+}
