@@ -49,6 +49,16 @@ header .cabecalho {
   align-items: center;
 }
 
+.logo {
+  animation: zoom;
+  animation-iteration-count: infinite;
+  animation: alternate;
+}
+
+@keyframes zoom { to { 
+  transform: scale(2);}
+}
+
 nav {
   display: none;
 }
@@ -60,6 +70,10 @@ nav ul {
 nav ul li a {
   color: var(--light-color);
   text-decoration: none;
+}
+
+nav ul li a:hover {
+background-color: #3c2313;
 }
 
 .banner {
