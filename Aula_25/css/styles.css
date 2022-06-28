@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background: black;
+  color: white;
+  padding: 20px;
+}
+header h1 {
+  font-size: 30px;
+}
+header h2,
+header h3 {
+  text-align: center;
+  padding: 15px 0;
+}
+header h1::first-letter {
+  color: red;
+}
+header ul {
+  display: flex;
+  gap: 5px;
+}
+header li {
+  list-style-type: none;
+}/*# sourceMappingURL=styles.css.map */
